@@ -1,0 +1,114 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+}
+.wrap{
+    width: 1440px;
+    height: 960px;
+    background-color: hsl(217, 54%, 11%);
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    position: relative;
+    top: 320px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+h1, .author2{
+    color: white;
+}
+.contents, .time, .author1{
+    color: hsl(215, 51%, 70%);
+}
+
+/* card */
+.card{
+    width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 0 auto;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    position: relative;
+    top: 160px;
+}
+.empty{
+    padding-top: 25px;
+}
+.picture{
+    align-items: center;
+}
+.picture_frame{
+    border-radius: 10px;
+    height: 325px;
+    width: 325px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.picture_frame > img{
+    width: 325px;
+    height: 100%;
+    object-fit: cover;
+} 
+
+/* component */
+.component{
+    margin: 0 auto;
+    width: 330px;
+}
+h1{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.contents{
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+    margin-top: 20px;
+}
+.component > ul{
+    display: flex;
+}
+.component li{
+    margin-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    flex: 1;
+}
+.price > img{
+    margin-right: 7px;
+}
+.time > img{
+    margin-right: 10px;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    
+}
+.price span, .time span{
+    position: relative;
+    top: -3px;
+    left: -5px;
+}
+.author > div > img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.author{
+    margin-top: 15px;
+    display: flex;
+}
+.author1, .author2{
+    margin-top: 3px;
+}
+.author1{
+    margin-right: 10px;
+}
